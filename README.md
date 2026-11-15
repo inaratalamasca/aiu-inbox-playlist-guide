@@ -9,7 +9,7 @@
 3. Paste this into Antigravity:
 
 ```text
-Read and follow https://raw.githubusercontent.com/inaratalamasca/aiu-inbox-playlist-guide/main/GUIDE.md
+Read and follow https://raw.githubusercontent.com/inaratalamasca/aiu-inbox-playlist-guide/1b9da994b6968e6e6e67ac508b27571175ac1929/GUIDE.md
 
 Help me run an AP. Ask for my inbox and playlist links if needed.
 Verify one real submission first, then keep the playlist updated about every five minutes while this session is active.
