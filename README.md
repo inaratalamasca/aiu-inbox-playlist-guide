@@ -28,6 +28,8 @@ After playlist updates work, say:
 Enable the Advanced now-playing helper in the guide. Ask for the playing Suno tab and the Discord channel.
 ```
 
+Use the submission's **Discord uploader name** for the ping; keep the Suno artist credit separate. No private name spreadsheet is needed or shared.
+
 Use **Discord web**, visible to Antigravity, for the browser-assisted route. Desktop Discord on Windows is not assumed supported. Automatic sending uses an approved bot/webhook; otherwise the helper prepares messages for you to review and send. [Advanced instructions](GUIDE.md#advanced--optional-now-playing-pings)
 
 ## Can Antigravity do this?

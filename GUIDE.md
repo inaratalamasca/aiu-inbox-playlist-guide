@@ -21,7 +21,7 @@ Read the complete destination too: follow every MCP cursor or load all managemen
 1. Re-read the same Pending inbox and complete saved playlist.
 2. Append only due Suno song IDs, oldest first, in small ordered batches within the actual tool limit or individually through the browser.
 3. Check individual failures and read back the full saved order: old prefix unchanged, new tail correct. A successful click/request is not sufficient.
-4. Keep a small **local receipt**: inbox/playlist URLs, submission IDs (or timestamp + uploader + link + tie position), resolved song IDs and verified outcomes. Reuse it after interruption; never publish inbox data here.
+4. Keep a small **local receipt**: inbox/playlist URLs, submission IDs (or timestamp + uploader + link + tie position), resolved song IDs and verified outcomes. For Advanced, retain each row's Discord uploader name too. Reuse it after interruption; never publish inbox data or identity spreadsheets here.
 
 Before retrying an uncertain add, reconcile playlist membership. Don't blindly repeat batches. Report already-present songs. Keep separate repeated submissions distinct and ask about repeat playback instead of silently collapsing them or assuming duplicate playlist slots work.
 
@@ -41,9 +41,11 @@ Enable only when asked. Identify the **actual playing Suno tab** and exact Disco
 
 Check track changes while active, about every 15–30 seconds if supported; explain any slower available interval. Prepare:
 
-`🎵 Now playing: SONG — ARTIST · SUNO LINK`
+`🎵 Now playing: SONG — ARTIST · SUNO LINK · Submitted by @UPLOADER`
 
-Use a real artist mention only with verified Discord identity; otherwise use plain artist text. No guessed, role or mass pings. Announce once per track change, never every poll or pause/resume. Remember the last announced track locally; reconcile uncertain sends before retrying. Don't backfill old tracks.
+Match the playing Suno song ID to its inbox row/local receipt. Use that row's **Uploader (Discord)** name for the ping, not the Suno artist name. Resolve it through Discord autocomplete or an authorized bot member lookup, and select the unambiguous member; let Discord render their name. If the match is ambiguous, use plain uploader text and flag it. The uploader and artist may be different people. No guessed, role or mass pings. **Do not request, copy or publish a private Suno↔Discord spreadsheet or its mappings.**
+
+Announce once per track change, never every poll or pause/resume. Remember the last announced track locally; reconcile uncertain sends before retrying. Don't backfill old tracks.
 
 **Browser-assisted:** use **Discord web** in your controlled browser. Prepare text only in the chosen empty composer; preserve existing drafts and pause if the host is typing. The host reviews and sends. If that is unreliable, provide the line in chat for copying.
 
