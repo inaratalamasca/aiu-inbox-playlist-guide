@@ -39,3 +39,9 @@ Google documents [browser control](https://antigravity.google/docs/commands/brow
 Suno MCP is preferred when available; browser playlist controls are the fallback. The [official Suno MCP address](https://suno.com/mcp) is `https://api.suno.com/mcp`. Authorize your own account; having some MCP tools installed does not prove Suno is connected.
 
 Checked **November 15, 2026**. This is a small instruction guide, not a player, extension or bot installation.
+
+## Related tools and use
+
+[Catnap project overview](https://github.com/inaratalamasca/catnap-studio) · [Standalone Theatre](https://github.com/inaratalamasca/catnap-theatre)
+
+First-party guide material uses [PolyForm Noncommercial 1.0.0](LICENSE); [commercial permission and branding terms](LICENSING.md) are separate. Private identity spreadsheets and inbox receipts are never published with this guide.
