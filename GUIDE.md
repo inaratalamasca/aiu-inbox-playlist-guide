@@ -47,6 +47,6 @@ Use a real artist mention only with verified Discord identity; otherwise use pla
 
 **Browser-assisted:** use **Discord web** in your controlled browser. Prepare text only in the chosen empty composer; preserve existing drafts and pause if the host is typing. The host reviews and sends. If that is unreliable, provide the line in chat for copying.
 
-**Automatic:** use an already authorized bot/MCP integration or channel webhook. This route needs neither Discord web nor desktop. Without one, use review-and-send; don't build a bot here. Discord [prohibits ordinary-account self-bots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots); [webhooks](https://docs.discord.com/developers/resources/webhook) support channel posts. Keep their credentials private.
+**Automatic:** use an already authorized Discord bot (directly or through MCP) or a channel webhook. This route needs neither Discord web nor desktop. Without one, use review-and-send; don't build a bot here. Discord [prohibits ordinary-account self-bots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots); [webhooks](https://docs.discord.com/developers/resources/webhook) support channel posts. Keep their credentials private.
 
 Windows desktop Discord control is not established by Google's browser documentation; this guide uses Discord web for browser assistance. On “stop,” cancel announcement timers too. Never touch Discord voice, streaming, mute or deafen controls.
