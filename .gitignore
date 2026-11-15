@@ -1,0 +1,9 @@
+
+# Identity masters, inbox exports and local release output never belong in source.
+*.xls
+*.xlsx
+*.ods
+*.csv
+*Name_Tracker*
+*inbox_export*
+/dist/
